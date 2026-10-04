@@ -1,0 +1,5 @@
+# Minimal loading environment for the supplied Keras 2.15 checkpoint.
+# Use Python 3.10 or 3.11.
+tensorflow==2.15.0
+keras==2.15.0
+numpy==1.26.4

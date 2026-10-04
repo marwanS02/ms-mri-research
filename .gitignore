@@ -1,0 +1,22 @@
+# Python and notebook runtime files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local data and generated experiments
+data/
+datasets/
+outputs/
+logs/
+*.nii
+*.nii.gz
+*.dcm
+X.npy
+Y.npy
+Y_seg.npy
+Y_class.npy
+manual_labels*.csv
+
+# Saved model weights are intentionally not ignored; models/ uses Git LFS.
